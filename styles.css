@@ -19,11 +19,6 @@ body {
     padding-bottom: 110px;
 }
 
-.navBar.sticky {
-    background-color: rgba(85, 121, 119, 0.55);
-    transition: all 300ms ease-in-out;
-}
-
 .navLeft {
     position: relative;
     float: left;
@@ -41,16 +36,14 @@ body {
 .navButton {
     display: inline-block;
     color: white;
-    width: 104px;
+    width: 105px;
     height: 27px;
     margin-top: 26px;
     margin-left: 40px;
     padding: 0px;
     border: 1px solid transparent;
     border-radius: 3px;
-    box-shadow: inset 0 0 0 1px #fff;
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
+    box-shadow: inset 0 0 0 1px white;
     font-size: 14px;
     line-height: 27px;
     font-weight: 400;
@@ -73,35 +66,23 @@ body {
     text-align: center;
 }
 
-.downIcon {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    margin-right: 20px;
-    width: 1em;
-    height: 1em;
-}
-
 .purpleDiv {
     position: relative;
     left: 0px;
     min-height: auto;
     border: transparent;
     font-family: Arial, Helvetica, sans-serif;
-    /* padding-top: 140px; */
     margin-top: -200px;
     margin-left: 0px;
+    margin-right: 0px;
     padding-top: 140px;
     padding-bottom: 100px;
     background-image: url('./assets/gradient-violet-bg.jpeg');
     background-position: 50% 50%;
-    background-size: cover;
+    background-size: 100%;
     min-width: 100%;
     color: white;
     background-color: #331a5c;
-    transition: all 300ms ease;
 }
 
 img#navLogo {
@@ -111,11 +92,6 @@ img#navLogo {
     height: auto;
     margin-top: 18px;
     margin-left: 0px;
-    transition: transform 300ms ease;
-}
-
-img#navLogo:hover {
-    transform: scale(1.1) perspective(0px);
 }
 
 .laptopDiv {
@@ -158,9 +134,8 @@ p.text1 {
     border-color: rgba(254, 144, 0, 0);
     border-radius: 3px;
     background-color: #fe9000;
-    -webkit-transition: border 300ms ease;
     transition: border 300ms ease;
-    color: #fff;
+    color: white;
     font-size: 18px;
     line-height: 44px;
     font-weight: 700;
@@ -169,15 +144,13 @@ p.text1 {
     text-indent: 1.44px;
     text-transform: uppercase;
     white-space: nowrap;
-    background-clip: padding-box;
-    -o-object-fit: fill;
     object-fit: fill;
     text-decoration: none;
 }
   
 .openButton:hover {
     border-color: #fe9000;
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
